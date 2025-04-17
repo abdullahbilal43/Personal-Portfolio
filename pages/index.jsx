@@ -8,7 +8,7 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 pt-1 h-full  min-h-screen overflow-y-auto w-full ">
+    <div className="bg-primary/60 pt-1 overflow-y-auto w-full h-screen">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
@@ -30,7 +30,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-4 xl:mb-14"
           >
            Full Stack Developer with hands-on experience in building scalable web applications. Proficient in MERN stack, RESTful APIs, and modern UI/UX design principles. Passionate about solving real-world problems through clean, efficient code.
           </motion.p>
