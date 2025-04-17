@@ -18,6 +18,13 @@
   color: #f13024;
 }
 
+html,
+body {
+  height: auto; /* important */
+  overflow-x: hidden;
+}
+
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;

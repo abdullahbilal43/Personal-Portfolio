@@ -3,11 +3,11 @@
   "version": "1.0.1",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
+    "name": "Abdullah Bilal",
+    "email": "abdullah.bil45@gmail.com",
     "url": "https://github.com/sanidhyy"
   },
-  "description": "Ethan Smith is a Full-stack web developer with 10+ years of experience.",
+  "description": "Abdullah Bilal is a Full-stack web developer with 2+ years of experience.",
   "keywords": [
     "react",
     "next",
@@ -26,23 +26,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/modern-portfolio.git"
+    "url": "https://github.com/abdullahbilal43"
   },
-  "homepage": "https://github.com/sanidhyy/modern-portfolio#readme",
+  "homepage": "https://github.com/abdullahbilal43",
   "bugs": {
-    "url": "https://github.com/sanidhyy/modern-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/abdullahbilal43",
+    "email": "abdullah.bil45@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
+ 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -53,16 +44,21 @@
     "@next/font": "^13.4.4",
     "framer-motion": "^10.12.16",
     "next": "14.1.1",
+    "nodemailer": "^6.10.1",
     "react": "18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.5.2",
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.3",
     "swiper": "^9.4.0",
     "tailwind-scrollbar": "^3.0.4",
-    "tsparticles": "^2.9.3"
+    "tsparticles": "^2.9.3",
+    "vercel": "^41.6.1"
   },
   "devDependencies": {
+    "@types/node": "22.14.1",
+    "@types/react": "19.1.2",
     "autoprefixer": "^10.4.14",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",

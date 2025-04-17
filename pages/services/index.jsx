@@ -9,7 +9,7 @@ export const serviceData = [];
 
 const Services = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className=" bg-primary/30 py-36 flex  w-full h-screen overflow-hidden items-center">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
@@ -31,8 +31,9 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+            
+Here’s what I offer to help bring your ideas to life with scalable, high-quality solutions.  
+From frontend design to backend development, I’ve got your project covered end-to-end.
             </motion.p>
           </div>
 

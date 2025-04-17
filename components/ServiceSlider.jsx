@@ -1,5 +1,4 @@
 import {
-  RxCrop,
   RxPencil2,
   RxDesktop,
   RxReader,
@@ -15,29 +14,26 @@ import "swiper/css/pagination";
 
 const serviceData = [
   {
-    Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: RxDesktop,
+    title: "Development",
+    description: "Fast, responsive, scalable web apps tailored to you.",
   },
+ 
   {
     Icon: RxPencil2,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Crafting clean, intuitive interfaces for great user experiences.",
   },
-  {
-    Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  
   {
     Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Mainterance",
+    description: "Keeping applications secure, updated, and running smoothly.",
   },
   {
     Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Support",
+    description: "Offering efficient, timely support for smooth project delivery.",
   },
 ];
 
@@ -59,7 +55,7 @@ const ServiceSlider = () => {
       }}
       modules={[FreeMode, Pagination]}
       freeMode
-      className="h-[240px] sm:h-[340px]"
+      className="h-[240px]  sm:h-[340px]"
     >
       {serviceData.map((item, i) => (
         <SwiperSlide key={i}>
@@ -69,7 +65,7 @@ const ServiceSlider = () => {
               <item.Icon aria-hidden />
             </div>
 
-            {/* title & description */}
+            {/* title & description */} 
             <div className="mb-8">
               <div className="mb-2 text-lg">{item.title}</div>
               <p className="max-w-[350px] leading-normal">{item.description}</p>
