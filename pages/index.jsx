@@ -20,7 +20,7 @@ const Home = () => {
             exit="hidden"
             className="h1 pt-5"
           >
-            Transforming Ideas <br /> Into{" "}
+            Transforming Ideasssssssssssssssssssssssssssss <br /> Into{" "}
             <span className="text-accent">Digital Reality</span>
           </motion.h1>
 
