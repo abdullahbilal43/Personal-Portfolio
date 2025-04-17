@@ -1,6 +1,6 @@
-[[plugins]]
-package = "@netlify/plugin-nextjs"
+[build]
+  command = "npm run build"
+  publish = ".next"
 
-  [plugins.inputs]
-  disableRuntime = false
-  skipMigrationWarning = true
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
