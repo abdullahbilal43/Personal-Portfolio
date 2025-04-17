@@ -30,7 +30,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-4 xl:mb-14"
+            className="max-w-sm  xl:max-w-xl mx-auto xl:mx-0 mb-4 xl:mb-14"
           >
            Full Stack Developer with hands-on experience in building scalable web applications. Proficient in MERN stack, RESTful APIs, and modern UI/UX design principles. Passionate about solving real-world problems through clean, efficient code.
           </motion.p>
