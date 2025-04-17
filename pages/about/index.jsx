@@ -111,7 +111,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="h2 z-50"
           >
             Captivating <span className="text-accent">stories</span> birth
             magnificent designs.
@@ -120,7 +120,7 @@ const About = () => {
             variants={fadeIn("right", 0.4)}
             initial="hidden"
             animate="show"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] z-50 mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
            I'm a dedicated Full Stack Developer with a strong background in both frontend and backend technologies. I enjoy turning complex problems into intuitive, user-friendly solutions. With a focus on clean code and performance, I strive to build products that make a real impact.
 
