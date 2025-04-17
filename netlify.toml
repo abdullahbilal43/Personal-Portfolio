@@ -4,3 +4,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[context.production.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP_NETLIFY_FORMS = "true"
