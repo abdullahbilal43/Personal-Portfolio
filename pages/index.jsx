@@ -8,7 +8,7 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="page bg-primary/60 h-full overflow-y-auto">
+    <div className="w-full h-screen overflow-hidden bg-primary/60  overflow-y-auto">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
@@ -20,7 +20,7 @@ const Home = () => {
             exit="hidden"
             className="h1 pt-5"
           >
-            Transforming Ideasssssssssssssssssssssssssssss <br /> Into{" "}
+            Transforming I <br /> Into{" "}
             <span className="text-accent">Digital Reality</span>
           </motion.h1>
 
